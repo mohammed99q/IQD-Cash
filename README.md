@@ -1,11 +1,38 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 🇮🇶 IQD Cash - دينار كاش
+> **مؤشر الصرف الذكي الأول في العراق | The Premier Smart IQD Exchange Index**
 
-  <h1>Built with AI Studio</h2>
+منصة ويب متطورة (PWA) متخصصة في رصد وتحليل أسعار صرف الدينار العراقي مقابل الدولار والعملات العالمية لحظة بلحظة، بالاعتماد على محرك بحث **Google Gemini AI**.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🚀 تعليمات النشر على Google Play (Deployment Guide)
 
-</div>
+لنشر هذا المشروع كتطبيق أندرويد، اتبع الخطوات التالية:
+
+### الخطوة 1: الاستضافة
+ارفع الكود الحالي على أي استضافة (Vercel, Firebase, etc) وتأكد من وجود رابط `https`.
+
+### الخطوة 2: التحويل إلى Android
+استخدم أداة **Bubblewrap** الرسمية من جوجل:
+1. ثبت الأداة: `npm i -g @bubblewrap/cli`
+2. ابدأ المشروع: `bubblewrap init --manifest=https://[رابط-موقعك]/metadata.json`
+3. قم ببناء التطبيق: `bubblewrap build`
+
+### الخطوة 3: الربط الرقمي (Asset Links)
+بعد البناء، ستحصل على ملف `assetlinks.json`. قم برفعه على موقعك في هذا المسار:
+`your-site.com/.well-known/assetlinks.json`
+هذا يزيل شريط العنوان العلوي في الأندرويد ويجعل التطبيق يبدو أصلياً (Native).
+
+---
+
+## 🛠️ البناء التقني (Tech Stack)
+- **Frontend**: React 19, TypeScript, Tailwind CSS.
+- **AI Core**: Google GenAI (Gemini 3 Flash & 2.5 Image).
+- **Grounding**: Google Search Grounding للدقة اللحظية.
+
+## 👨‍💻 تطوير (Developed By)
+**محمد اليسار | Mohammed Alyasar**
+*Senior Full-Stack Developer & Fintech Architect*
+
+🔗 [LinkedIn](https://www.linkedin.com/in/mohammed-alyasar99/) | 🔗 [GitHub](https://github.com/mohammed99q)
