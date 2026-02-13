@@ -95,6 +95,12 @@ const App: React.FC = () => {
                 </p>
               </div>
             </div>
+
+            {/* توقيع المطور في نهاية الصفحة الرئيسية */}
+            <div className="mt-8 text-center pb-4 opacity-40">
+              <p className="text-[8px] font-black tracking-[0.3em] uppercase mb-1">برمجة وتطوير</p>
+              <p className="text-xs font-black text-amber-500 tracking-tighter">محمد اليسار</p>
+            </div>
           </div>
         )}
 
@@ -132,15 +138,30 @@ const App: React.FC = () => {
 
         {activeTab === 'lab' && (
           <div className="pb-32 animate-in fade-in duration-500">
-             <div className="bg-amber-500 rounded-[3rem] p-12 text-slate-950 text-center shadow-2xl">
-                <div className="w-20 h-20 bg-slate-950 rounded-3xl flex items-center justify-center text-4xl mx-auto mb-6 shadow-2xl">ع</div>
-                <h2 className="text-2xl font-black mb-4">APK & Store</h2>
-                <p className="text-xs font-bold opacity-80 mb-8 leading-relaxed">
-                  هذا التطبيق مصمم ليعمل كـ APK حقيقي. قم بالضغط على "إضافة للشاشة الرئيسية" من خيارات المتصفح ليعمل التطبيق بملء الشاشة بدون روابط.
+             <div className="bg-amber-500 rounded-[3rem] p-12 text-slate-950 text-center shadow-2xl relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
+                
+                <div className="w-20 h-20 bg-slate-950 rounded-3xl flex items-center justify-center text-4xl mx-auto mb-6 shadow-2xl text-amber-500">ع</div>
+                
+                <h2 className="text-2xl font-black mb-1">محمد اليسار</h2>
+                <p className="text-[10px] font-black uppercase tracking-[0.2em] mb-6 opacity-60">Senior AI Developer</p>
+                
+                <p className="text-xs font-bold opacity-90 mb-10 leading-relaxed px-2">
+                  تم تصميم وتطوير "دينار كاش" كحل تقني متكامل لمراقبة السوق العراقي لحظة بلحظة باستخدام أحدث تقنيات الذكاء الاصطناعي.
                 </p>
-                <button className="bg-slate-950 text-white px-8 py-3 rounded-2xl text-[10px] font-black uppercase tracking-widest shadow-xl">
-                  دليل التحميل والرفع
-                </button>
+                
+                <div className="space-y-3">
+                  <button className="w-full bg-slate-950 text-white py-4 rounded-2xl text-[10px] font-black uppercase tracking-widest shadow-xl active:scale-95 transition-transform">
+                    تحميل APK (نسخة محمد اليسار)
+                  </button>
+                  <button className="w-full bg-slate-950/10 border border-slate-950/20 text-slate-950 py-4 rounded-2xl text-[10px] font-black uppercase tracking-widest active:scale-95 transition-transform">
+                    تواصل مع المطور
+                  </button>
+                </div>
+
+                <div className="mt-8 pt-8 border-t border-slate-950/10 text-[8px] font-black opacity-40 uppercase tracking-widest">
+                  حقوق البرمجة محفوظة © 2025
+                </div>
              </div>
           </div>
         )}
@@ -151,7 +172,7 @@ const App: React.FC = () => {
           <NavButton active={activeTab === 'home'} onClick={() => setActiveTab('home')} icon="🏠" label="الرئيسية" />
           <NavButton active={activeTab === 'calc'} onClick={() => setActiveTab('calc')} icon="⚖️" label="المحول" />
           <NavButton active={activeTab === 'charts'} onClick={() => setActiveTab('charts')} icon="📈" label="المؤشر" />
-          <NavButton active={activeTab === 'lab'} onClick={() => setActiveTab('lab')} icon="📦" label="المتجر" />
+          <NavButton active={activeTab === 'lab'} onClick={() => setActiveTab('lab')} icon="👤" label="المطور" />
         </div>
       </nav>
     </div>

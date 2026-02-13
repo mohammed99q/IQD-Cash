@@ -58,7 +58,7 @@ bubblewrap build
 
 ## 👨‍💻 المطور (The Architect)
 **محمد اليسار | Mohammed Alyasar**
-*Senior Full-Stack Engineer & AI Specialist*
+*Senior Full-Stack Developer & AI Specialist*
 
 بخبرة واسعة في بناء الحلول التقنية المبتكرة، أسعى دائماً لدمج الذكاء الاصطناعي في صلب احتياجات السوق المحلي.
 
