@@ -1,9 +1,9 @@
 {
-  "id": "com.alyasar.iqdcash",
+  "id": "com.alyasar.iqdcash.v5",
   "name": "دينار كاش - IQD Cash",
   "short_name": "دينار كاش",
-  "description": "مؤشر صرف الدينار العراقي الذكي - تتبع أسعار الدولار لحظة بلحظة بتطوير محمد اليسار.",
-  "start_url": "/",
+  "description": "مؤشر صرف الدينار العراقي الذكي.",
+  "start_url": "/?source=pwa_apk",
   "display": "standalone",
   "display_override": [
     "standalone",
@@ -27,18 +27,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    }
-  ],
-  "categories": [
-    "finance",
-    "business"
-  ],
-  "screenshots": [
-    {
-      "src": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop",
-      "sizes": "1080x1920",
-      "type": "image/jpg",
-      "label": "الشاشة الرئيسية"
     }
   ],
   "requestFramePermissions": []
