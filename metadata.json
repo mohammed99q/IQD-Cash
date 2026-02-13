@@ -1,11 +1,20 @@
 {
-  "name": "IQD Cash - دينار كاش",
+  "id": "com.alyasar.iqdcash",
+  "name": "دينار كاش - IQD Cash",
   "short_name": "دينار كاش",
-  "description": "مؤشر صرف الدينار العراقي الذكي - تتبع أسعار الدولار لحظة بلحظة من بورصات الكفاح والحارثية بتطوير محمد اليسار.",
+  "description": "مؤشر صرف الدينار العراقي الذكي - تتبع أسعار الدولار لحظة بلحظة بتطوير محمد اليسار.",
   "start_url": "/",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "minimal-ui"
+  ],
   "background_color": "#020617",
-  "theme_color": "#eab308",
+  "theme_color": "#020617",
+  "dir": "rtl",
+  "lang": "ar-IQ",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png",
@@ -17,10 +26,9 @@
       "src": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
   ],
-  "orientation": "portrait",
   "categories": [
     "finance",
     "business"
@@ -30,7 +38,7 @@
       "src": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop",
       "sizes": "1080x1920",
       "type": "image/jpg",
-      "label": "الشاشة الرئيسية لبرنامج دينار كاش"
+      "label": "الشاشة الرئيسية"
     }
   ],
   "requestFramePermissions": []
