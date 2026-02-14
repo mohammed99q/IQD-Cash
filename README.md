@@ -34,23 +34,6 @@
 
 ---
 
-#
-npm i -g @bubblewrap/cli
-bubblewrap init --manifest=https://your-app-url.com/metadata.json
-bubblewrap build
-```
-
-### 2. إثبات الملكية (Digital Asset Links)
-تأكد من رفع ملف `assetlinks.json` المولد في المسار التالي بموقعك:
-`https://your-app-url.com/.well-known/assetlinks.json`
-
-### 3. متطلبات المتجر
-- أيقونة بحجم `512x512`.
-- لقطات شاشة (Screenshots) للهواتف والأجهزة اللوحية.
-- حساب مطور (Google Play Console).
-
----
-
 ## 👨‍💻 المطور (The Architect)
 **محمد اليسار | Mohammed Alyasar**
 *Senior Full-Stack Developer & AI Specialist*
