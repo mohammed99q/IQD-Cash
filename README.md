@@ -34,12 +34,7 @@
 
 ---
 
-## 📦 تعليمات النشر على Google Play
-التطبيق مهيأ تقنياً ليتم رفعه كـ **Trusted Web Activity (TWA)**:
-
-### 1. تحويل المشروع
-استخدم أداة **Bubblewrap** لتحويل الـ PWA إلى ملف `.aab`:
-```bash
+#
 npm i -g @bubblewrap/cli
 bubblewrap init --manifest=https://your-app-url.com/metadata.json
 bubblewrap build
